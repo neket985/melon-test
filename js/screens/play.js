@@ -3,6 +3,8 @@ game.PlayScreen = me.Stage.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
+
+        me.levelDirector.loadLevel("test");
         // reset the score
         game.data.score = 0;
 
